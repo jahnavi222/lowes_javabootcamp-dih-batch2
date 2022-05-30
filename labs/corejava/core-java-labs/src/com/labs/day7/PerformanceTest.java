@@ -3,7 +3,7 @@ package com.labs.day7;
 public class PerformanceTest {
 
 	public static void main(String[] args) {
-		
+
 		System.out.println("Performance Test");
 
 		StringBuffer sb = new StringBuffer("Hello");
@@ -14,7 +14,7 @@ public class PerformanceTest {
 			sb.append("World");
 
 		}
-		// TODO Auto-generated method stub
+
 		System.out.println("StringBuff time: " + (System.currentTimeMillis() - startTime));
 
 		StringBuilder sb1 = new StringBuilder("Hello");

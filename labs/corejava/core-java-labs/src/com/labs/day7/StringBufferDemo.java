@@ -27,6 +27,13 @@ public class StringBufferDemo {
 		
 		System.out.println(sb);
 		System.out.println(sb.charAt(3));
+		
+		StringBuffer sb3 = new StringBuffer("Test");
+		StringBuffer sb4 = new StringBuffer("Test");
+		System.out.println(sb4.equals(sb3));//false
+		StringBuffer sb5=sb4;
+		
+		System.out.println(sb5.equals(sb4));//true
 	}
 	
 	

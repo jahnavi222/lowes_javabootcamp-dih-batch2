@@ -41,6 +41,10 @@ public class Demo1 {
 		System.out.println(max);
 
 		int age = 14;
+		
+		
+		
+				
 
 		String result = age >= 18 ? "eligible" : "not eligible";
 
@@ -86,6 +90,9 @@ public class Demo1 {
 
 		int smallest = c < (a < b ? a : b) ? c : ((a < b) ? a : b);
 		System.out.println("smallest number:+ " + smallest);
+		String x="abc";
+		String y="abc";
+		System.out.println(x);
 	}
 
 }
