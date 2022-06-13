@@ -1,0 +1,20 @@
+spring.profiles.active: dev
+
+---
+spring:
+  sql.init:
+    driver-class-name: org.postgresql.Driver
+    username: training
+    password: training
+    url: jdbc:mysql://localhost:3306/jdbctraining?createDatabaseIfNotExist=true
+    platform: mysql
+    
+  jpa:
+    show-sql: true
+    generate-ddl: true
+    hibernate:
+      ddl-auto: create
+    database: mysql
+  spring:
+   application:
+      name: profiles
