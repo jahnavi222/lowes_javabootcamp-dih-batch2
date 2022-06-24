@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+    <description>"welcome to spring1"  </description>
+    <bean id="grt1" class="com.labs.spring.core.Greeetings"> 
+    <property name="message"       value="welcome to spring"/> 
+      </bean>
+    <bean id="grt2" class="com.labs.spring.core.Greeetings">
+     <property name="message"       value="welcome to spring"/>
+     </bean>
+ 
+        <!-- collaborators and configuration for this bean go here -->
+    
+
+
+    <!-- more bean definitions go here -->
+
+</beans>
